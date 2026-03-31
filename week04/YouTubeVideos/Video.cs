@@ -23,9 +23,9 @@ class Video
 
     public int GetCommentCount()
     {
-        int _count = _comments.Count();
+        int count = _comments.Count();
 
-        return _count;
+        return count;
     }
     public void DisplayComments()
     {
